@@ -19,7 +19,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
-Route::get('testpdf',"HomeController@testPdf");
+Route::get('testpdf',"PDFController@testPdf");
 
 //Route::post('language-chooser','LanguageController@changeLanguage');
 
